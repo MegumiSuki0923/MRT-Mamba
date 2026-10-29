@@ -1,0 +1,12 @@
+torch==2.9.1
+transformers==4.57.3
+accelerate==0.28.0
+modelscope==1.31.0
+numpy==1.26.4
+pandas==1.5.3
+scikit-learn==1.2.2
+scipy==1.12.0
+tqdm==4.67.1
+safetensors==0.7.0
+causal-conv1d==1.5.3.post1
+mamba-ssm==2.2.6.post3

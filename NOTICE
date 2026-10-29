@@ -1,0 +1,9 @@
+MRT-Mamba
+
+Third-party forecasting implementations acknowledged by this project:
+https://github.com/thuml/Time-Series-Library
+https://github.com/DAMO-DI-ML/NeurIPS2023-One-Fits-All
+
+Pretrained Mamba weights are downloaded separately and are not included in
+this source distribution. Datasets and third-party model weights retain
+their respective terms.
