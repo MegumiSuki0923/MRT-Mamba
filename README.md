@@ -50,15 +50,15 @@ Run a dataset script from the repository root:
 bash scripts/MRTMamba_ETTh1.sh
 ```
 
-| Dataset | Script | Forecast horizons | Backbone layers |
-| --- | --- | --- | --- |
-| ETTh1 | `scripts/MRTMamba_ETTh1.sh` | 96, 192, 336, 720 | 12 |
-| ETTh2 | `scripts/MRTMamba_ETTh2.sh` | 96, 192, 336, 720 | 24 |
-| ETTm1 | `scripts/MRTMamba_ETTm1.sh` | 96, 192, 336, 720 | 24 |
-| ETTm2 | `scripts/MRTMamba_ETTm2.sh` | 96, 192, 336, 720 | 24 |
-| ECL | `scripts/MRTMamba_ECL.sh` | 96, 192, 336, 720 | 24 |
-| Weather | `scripts/MRTMamba_Weather.sh` | 96, 192, 336, 720 | 24 |
-| Traffic | `scripts/MRTMamba_Traffic.sh` | 96, 192, 336, 720 | 24 |
+| Dataset | Script | Forecast horizons |
+| --- | --- | --- |
+| ETTh1 | `scripts/MRTMamba_ETTh1.sh` | 96, 192, 336, 720 |
+| ETTh2 | `scripts/MRTMamba_ETTh2.sh` | 96, 192, 336, 720 |
+| ETTm1 | `scripts/MRTMamba_ETTm1.sh` | 96, 192, 336, 720 |
+| ETTm2 | `scripts/MRTMamba_ETTm2.sh` | 96, 192, 336, 720 |
+| ECL | `scripts/MRTMamba_ECL.sh` | 96, 192, 336, 720 |
+| Weather | `scripts/MRTMamba_Weather.sh` | 96, 192, 336, 720 |
+| Traffic | `scripts/MRTMamba_Traffic.sh` | 96, 192, 336, 720 |
 
 All supplied scripts run horizons 96, 192, 336, and 720 with an input length of 512. The model supports up to all 24 pretrained backbone layers through `--llm_layers`.
 
